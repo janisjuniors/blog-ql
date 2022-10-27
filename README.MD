@@ -14,6 +14,16 @@
 </ul>
 <br>
 
+
+# How to run this project with Docker?
+
+<p>First time setup - <code>sh setup.sh</code></p>
+
+<p>After first time setup to start project you can run - <code>sh setup.sh</code></p>
+
+<p>To stop and remove all containers - <code>docker-compose down</code></p>
+<br>
+
 <p>Home Page</p>
 
 ![image](https://user-images.githubusercontent.com/104723218/198362273-ca1f247e-c9d6-4eb7-8b07-3acda37effc4.png)
@@ -25,12 +35,3 @@
 <p>Blog Article Page</p>
 
 ![image](https://user-images.githubusercontent.com/104723218/198361930-efa3209a-7b45-46b9-8c50-7653e9540027.png)
-
-# How to run this project with Docker?
-
-<p>First time setup - <code>sh setup.sh</code></p>
-
-<p>After first time setup to start project you can run - <code>sh setup.sh</code></p>
-
-<p>To stop and remove all containers - <code>docker-compose down</code></p>
-
