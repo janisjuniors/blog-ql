@@ -1,0 +1,40 @@
+"A datetime string with format `Y-m-d H:i:s`, e.g. `2018-05-23 13:43:32`."
+scalar DateTime @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\DateTime")
+
+type Query {
+    user(id: ID! @eq): User! @find
+    users: [User!]! @all
+    posts: [Post!]! @paginate(defaultCount: 10)
+    post(id: ID! @eq): Post! @find
+    topic(slug: String! @eq): Topic! @find
+    topics: [Topic!]! @all
+}
+
+type User {
+    id: ID!
+    name: String!
+    posts: [Post!]! @hasMany
+    email: String!
+    image: String!
+    email_verified_at: DateTime
+    created_at: DateTime!
+    updated_at: DateTime!
+}
+
+type Topic {
+    id: ID!
+    slug: String!
+    name: String!
+    posts: [Post!]! @hasMany(type: PAGINATOR)
+}
+
+type Post {
+    id: ID!
+    user: User! @belongsTo
+    topic: Topic! @belongsTo
+    title: String!
+    lead: String!
+    content: String!
+    created_at: DateTime!
+    updated_at: DateTime!
+}

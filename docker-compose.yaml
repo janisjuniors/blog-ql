@@ -1,0 +1,43 @@
+version: "3.8"
+
+services: 
+  server:
+    image: nginx:stable-alpine
+    ports: 
+      - '8000:80'
+    volumes:
+      - ./src:/var/www/html
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - php
+      - mysql
+  php:
+    build:
+      context: ./dockerfiles
+      dockerfile: php.dockerfile
+    volumes:
+      - ./src:/var/www/html
+  mysql:
+    image: mysql:8.0
+    volumes:
+      - ./mysql:/var/lib/mysql
+    env_file:
+      - ./env/.env.mysql
+  composer:
+    image: composer:latest
+    volumes:
+      - ./src:/var/www/html
+    working_dir: /var/www/html
+  artisan:
+    build:
+      context: ./dockerfiles
+      dockerfile: php.dockerfile
+    volumes:
+      - ./src:/var/www/html
+    entrypoint: ['php', '/var/www/html/artisan']
+  npm:
+    image: node:lts-alpine
+    working_dir: /var/www/html
+    entrypoint: ['npm']
+    volumes:
+      - ./src:/var/www/html
