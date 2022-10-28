@@ -17,6 +17,8 @@
 
 # How to run this project with Docker?
 
+<p>Install <a href="https://docs.docker.com/engine/install/">docker</a> and <a href="https://docs.docker.com/compose/install/">docker-compose</a></p>
+
 <p>First time setup - <code>sh setup.sh</code></p>
 
 <p>After first time setup to start project you can run - <code>sh setup.sh</code></p>
