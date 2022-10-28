@@ -4,13 +4,13 @@
 
 <p>Technologies used:</p>
 <ul>
-    <li>PHP 8.1</li>
+    <li>PHP 8</li>
     <li>MySQL 8</li>
     <li>GraphQL</li>
-    <li>Laravel v9.30</li>
+    <li>Laravel v9.37</li>
     <li>Vue.js v3.2</li>
     <li>TailwindCSS v3.1</li>
-    <li>Docker v20.10</li>
+    <li>Docker and Docker Compose</li>
 </ul>
 <br>
 
