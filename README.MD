@@ -15,7 +15,7 @@
 <br>
 
 
-# How to run this project with Docker?
+# Docker Setup
 
 <p>Install <a href="https://docs.docker.com/engine/install/">docker</a> and <a href="https://docs.docker.com/compose/install/">docker-compose</a></p>
 
