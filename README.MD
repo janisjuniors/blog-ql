@@ -28,12 +28,12 @@
 
 <p>Home Page</p>
 
-<img src="https://user-images.githubusercontent.com/104723218/198362273-ca1f247e-c9d6-4eb7-8b07-3acda37effc4.png" width="650">
+<img src="https://user-images.githubusercontent.com/104723218/198362273-ca1f247e-c9d6-4eb7-8b07-3acda37effc4.png" width="450">
 
 <p>Author Page</p>
 
-<img src="https://user-images.githubusercontent.com/104723218/198362075-40ac15f7-23c1-4855-96d0-7b2b1faf69d2.png" width="650">
+<img src="https://user-images.githubusercontent.com/104723218/198362075-40ac15f7-23c1-4855-96d0-7b2b1faf69d2.png" width="450">
 
 <p>Blog Article Page</p>
 
-<img src="https://user-images.githubusercontent.com/104723218/198361930-efa3209a-7b45-46b9-8c50-7653e9540027.png" width="650">
+<img src="https://user-images.githubusercontent.com/104723218/198361930-efa3209a-7b45-46b9-8c50-7653e9540027.png" width="450">
