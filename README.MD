@@ -14,18 +14,6 @@
 </ul>
 <br>
 
-
-# Docker Setup
-
-<p>Install <a href="https://docs.docker.com/engine/install/">docker</a> and <a href="https://docs.docker.com/compose/install/">docker-compose</a></p>
-
-<p>First time setup - <code>sh setup.sh</code></p>
-
-<p>After first time setup to start project you can run - <code>sh setup.sh</code></p>
-
-<p>To stop and remove all containers - <code>docker-compose down</code></p>
-<br>
-
 <p>Home Page</p>
 
 <img src="https://user-images.githubusercontent.com/104723218/198362273-ca1f247e-c9d6-4eb7-8b07-3acda37effc4.png" width="450">
