@@ -1,4 +1,4 @@
-# Blog
+# blog-ql
 
 <p>Simple blog application. With multiple views - home, article category view and article view.</p>
 
